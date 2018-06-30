@@ -1,5 +1,4 @@
 body, html {
-  height: 100%;
   margin: 0;
   padding: 0; }
 
@@ -152,10 +151,10 @@ body {
     margin-top: 0;
     font-family: 'Montserrat', sans-serif;
     fontweight: 300;
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
 
     p, ul, ol {
-      margin: 0 0 30px; }
+      margin: 0 0 15px; }
 
       img {
         max-width: 100%;
@@ -234,7 +233,8 @@ button.btn-primary, a.btn-primary {
     .container.topbar {
       position: fixed;
       top: 0;
-      background-color: #222; }
+      background-color: #222;
+      z-index: 9999; }
       .container.banner {
         height: 70%;
         background-color: #f9f9f9;
@@ -256,12 +256,16 @@ button.btn-primary, a.btn-primary {
         padding: 40px 0 60px; }
         .container.content.single-col .row {
           max-width: 900px;
-          margin: 0 auto; }
-          .container.content.single-col .row > div {
-            padding: 0 40px;
-            width: 100%; }
-            .container.content.single-col .row > div form input {
-              width: 80%; }
+          margin: 0 auto;
+          padding: 0 20px; }
+          .container.content.single-col .row > div form input {
+            width: 80%; }
+          .container.content.single-col .row > div .thumb {
+            background-color: #000;
+            width: 100%;
+            padding-bottom: 100%; }
+            .container.content.single-col .row > div .fa {
+              font-size: 44px; }
     .container.content.double-col {
       padding: 120px 0 100px; }
       .container.content.double-col .row {

@@ -1,6 +1,6 @@
 /* Basic Starter */
 body, html {
-    height: 100%;
+    // height: 100%;
     margin: 0;
     padding: 0;
     // font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -210,11 +210,11 @@ h1, h2, h3, h4, h5 {
     // font-family: 'Oswald', sans-serif;
     font-family: 'Montserrat', sans-serif;
     fontweight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 p, ul, ol {
-    margin: 0 0 30px;
+    margin: 0 0 15px;
 }
 
 img {
@@ -328,6 +328,7 @@ button.btn-primary, a.btn-primary{
         position: fixed;
         top: 0;
         background-color: #222;
+        z-index: 9999;
     }
     &.banner {
         height: 70%;
@@ -357,13 +358,21 @@ button.btn-primary, a.btn-primary{
             .row {
                 max-width: 900px;
                 margin: 0 auto;
+                padding: 0 20px;
                 > div {
-                    padding: 0 40px;
-                    width: 100%;
+                    // padding: 0 40px;
                     form {
                         input {
                             width: 80%;
                         }
+                    }
+                    .thumb {
+                        background-color: #000;
+                        width: 100%;
+                        padding-bottom: 100%;
+                    }
+                    .fa {
+                        font-size: 44px;
                     }
                 }
             }

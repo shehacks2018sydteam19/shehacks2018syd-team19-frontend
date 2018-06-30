@@ -43,7 +43,7 @@
 
 <div class="container topbar">
     <div class="row full-height">
-        <div class="col-12 tabled full-height full-width">
+        <div class="col-xs-12 tabled full-height full-width">
             <div class="tabled-cell fulll-height centered">
                 <img style="width:120px;margin: 10px 0;" src="static/images/snapr.svg"/>
             </div>
@@ -51,61 +51,52 @@
     </div>
 </div>
 
-<div class="photo"></div>
-
-<div class="container content single-col">
+<div class="container content single-col" style="margin-top:60px;padding: 40px 0;">
     <div class="row">
-        <div class="col-12">
-            <div class="alert alert-info" role="alert" style="margin-bottom:40px;">Check the details below and select those you'd like to save with the snap...</div>
-            <form>
-            	<div class="form-group">
-			        <input class="form-control">
-			        <div class="round">
-					    <input type="checkbox" id="checkbox" />
-					    <label for="checkbox"></label>
-					</div>
-				</div>
-				<div class="form-group">
-			        <input class="form-control">
-			        <div class="round">
-					    <input type="checkbox" id="checkbox-2" />
-					    <label for="checkbox-2"></label>
-					</div>
-				</div>
-				<div class="form-group">
-			        <input class="form-control">
-			        <div class="round">
-					    <input type="checkbox" id="checkbox-3" />
-					    <label for="checkbox-3"></label>
-					</div>
-				</div>
-				<div class="form-group">
-			        <input class="form-control">
-			        <div class="round">
-					    <input type="checkbox" id="checkbox-4" />
-					    <label for="checkbox-4"></label>
-					</div>
-				</div>
-				<div class="form-group">
-			        <input class="form-control">
-			        <div class="round">
-					    <input type="checkbox" id="checkbox-5" />
-					    <label for="checkbox-5"></label>
-					</div>
-				</div>
-				<div class="form-group">
-			        <input class="form-control">
-			        <div class="round">
-					    <input type="checkbox" id="checkbox-6" />
-					    <label for="checkbox-6"></label>
-					</div>
-				</div>
-			</form>
+        <div class="col-3">
+        	<div class="thumb"></div>
+        </div>
+        <div class="col-9">
+        	<h5>This is a saved text field</h5>
+        	<p>This is another saved text field</p>
         </div>
     </div>
 </div>
 
-<button class="btn btn-primary pinned" onclick="location.href='preview.html';">Next</button>
+<div class="container content single-col" style="background-color:#f9f9f9;padding: 40px 0;">
+    <div class="row">
+        <div class="col-3 centered">
+        	<i class="fa fa-clock-o" aria-hidden="true"></i>
+        </div>
+        <div class="col-9">
+        	<p style="margin-top:10px;">Tuesday, 2 July 2018 - 8PM</p>
+        </div>
+    </div>
+</div>
+
+<div class="container content single-col" style="padding: 40px 0;">
+    <div class="row">
+        <div class="col-3 centered">
+        	<i class="fa fa-map-marker" aria-hidden="true"></i>
+        </div>
+        <div class="col-9">
+        	<p style="margin-top:10px;">Sydney Showground</p>
+        </div>
+    </div>
+</div>
+
+<div class="container content single-col" style="background-color:#f9f9f9;margin-bottom:40px;">
+    <div class="row">
+        <div class="col-3">
+        	
+        </div>
+        <div class="col-9">
+        	<textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+        </div>
+    </div>
+</div>
+
+<button class="btn btn-primary pinned">Save</button>
 
 
 
