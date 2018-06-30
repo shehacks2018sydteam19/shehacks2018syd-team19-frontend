@@ -1,0 +1,1 @@
+snapr_git
